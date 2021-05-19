@@ -18,7 +18,15 @@ public class TestFemale {
 		
 		String str1 = f3.drive();
 		System.out.println(str1);
-		Female f4 = f3.createNewFemaleObject("gree");
+	
+		String someotherString = getMyString();
+		
+		
+	}
+	
+	private static  String getMyString () {
+		return " well this is my new string " ;
+	
 		
 	}
 	
