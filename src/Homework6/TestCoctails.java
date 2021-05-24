@@ -7,7 +7,7 @@ public class TestCoctails extends Coctail {
 		TestCoctails tc1 = new TestCoctails();
 		System.out.println(tc1 instanceof TestCoctails);
 		
-		System.out.println(tc1.hashCode());
+//		System.out.println(tc1.hashCode());
 		
 		MintJulep mj1 = new MintJulep();
 		mj1.drinkig();
@@ -16,24 +16,20 @@ public class TestCoctails extends Coctail {
 		RobRoy rb1 = new RobRoy();
 		rb1.brand();
 		testObjects(rb1);
-			
-			
+					
 	}
-		
-		
+			
 		public static void testObjects (Object o) {
 			System.out.println(o instanceof Coctail);
 			System.out.println(o instanceof RobRoy);
 			System.out.println(o instanceof MintJulep);
-			
-			
-		
 		
 	}
-	
-	
-	
 	}
+
+       
+    	   
+     
 
 		
 
