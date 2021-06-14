@@ -20,7 +20,6 @@ public class Short extends JakomoDeliveryBike implements IBike, IDeliverybike {
 
 	@Override
 	public String getTotalPayment(int numberOfPicas) {
-		// TODO Auto-generated method stub
 		return null;	
 }
 

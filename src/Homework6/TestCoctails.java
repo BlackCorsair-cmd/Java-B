@@ -14,7 +14,7 @@ public class TestCoctails extends Coctail {
 		testObjects(mj1);
 		
 		RobRoy rb1 = new RobRoy();
-		rb1.brand();
+//		rb1.brand();
 		testObjects(rb1);
 					
 	}

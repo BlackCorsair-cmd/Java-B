@@ -20,8 +20,6 @@ public class TestString {
 		
 		String s6 = null;
 		Object o1 = null;
-		int i1 = null;
-
 		s6.concat("tra la la");
 		
 
